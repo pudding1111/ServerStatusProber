@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--下面这个是谷歌统计代码-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163447597-4');
+</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>SKYの探针</title><!--窗口标题-->
+
+
+    <!-- Fix chrome language detection -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="Content-Language" content="zh" />
+
+    <!-- Styles -->
+    <link href="css/core.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/hotaru_fix.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="/js/selectivizr-min.js"></script>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+        <section id="content" style="text-align: center;">
+                <!-- Content Row -->
+                <section class="background">
+                    <div class="container">
+                        <header>
+                            <h1>
+                                <strong style=color:#d9b8f1>SKYの探针</strong><!--头版大字-->
+                            </h1>
+                        </header>
+                        <div>
+                            <p>
+                                <small>状态更新和事件报告可能会延迟最多30分钟<br />具体取决于手头的技术问题。请向下滚动查看过去的事件报告.</small>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+        </section>
+        <div class="container">
+			<div id="loading-notice">
+				<div class="progress progress-striped active">
+					<div class="progress-bar progress-bar-warning" style="width: 100%;">加载中...</div>
+				</div>
+				<div style="text-align:center;">
+					
+如果出现此消息，请确保您已启用Javascript！ <br />否则云监控主服务（服务端）未启动或已关闭.
+				</div>
+			</div>
+          	
+			<table class="table table-striped">
+				<thead>
+				<tr>
+					<th id="status4">运行状态</th>
+					<th id="name">节点名</th>
+					<th id="type">类型</th>
+					<th id="location">服务器位置</th>
+					<th id="uptime">在线时间</th>
+					<th id="load">负载</th>
+					<th id="network">网络(B/s) ↓|↑</th>
+					<th id="traffic">流量(B) ↓|↑</th>
+					<th id="cpu">CPU</th>
+					<th id="ram">RAM</th>
+					<th id="hdd">ROM</th>
+				</tr>
+				</thead>
+				<tbody id="servers" style="text-align:center;">
+				<!-- Servers here \o/ -->
+				</tbody>
+			</table>
+  			
+			<br />
+			<div id="updated" style="margin-left: 5px;">Updating...</div>
+		</div>
+
+        <div class="page-section">
+            <div class="container">
+                <div id='cards' class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="panel panel-block panel-block-sm panel-location">
+                            <div class="location-header">
+                                <h3 class="h4"><img src="img/clients/HK.png"> Non <small>Non</small></h3>
+                                <i class="zmdi zmdi-check-circle text-success"></i>
+                            </div>
+                            <div class="location-progress">
+                                <div class="progress progress-sm">
+                                    <div class="progress-bar" style="width: 92%;"></div>
+                                </div>
+                            </div>
+                            <ul class="location-info list-styled">
+                                <li><span class="list-label">状态:</span> 在线</li>
+                                <li><span class="list-label">空闲:</span> 100%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Scripts -->
+
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/serverstatus.js"></script>
+</body>
+<!--下面是底部备注-->
+<footer style="text-align:center;">
+    <p><a href="https://www.bluesky.cf">SKYの博客-苍穹の下</a> 丨 <a href="https://www.img.bluesky.cf">SKYの随机图</a>丨<a href="https://www.skyvpn.cf">SKYの科学上网</a> | <a href="https://www.skyimg.cf">SKYの公共图床 | <a href="https://www.m.bluesky.cf">SKYの探针</a> </p>
+</footer>
+
+</html>
